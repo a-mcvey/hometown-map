@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset=utf-8 />
-	<title>Web Page Template</title>
+	<title>Cynthiana, KY Map</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -74,26 +74,21 @@
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Lexington, KY!</h1>
+		<h1>Cynthiana, KY: Home of The Walking Dead, Joe B. Hall and Post-Its</h1>
 
 		<div id='map'></div>
 
 
 		<h2>about this map</h2>
-		<p>Additional information about
-			<a href="#">the data</a> and map goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna magna, maximus nec
-			laoreet sit amet, dictum ultricies nibh. Ut id auctor lacus. Nam a dolor et justo luctus luctus.</p>
+	
 
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
 			<li>See my projects on GitHub:
-				<a href="https://github.com/newmapsplus">New Maps Plus</a>
+				<a href="https://github.com/a-mcvey">Allison McVey</a>
 			</li>
-			<li>Follow me on twitter:
-				<a href="https://twitter.com/NewMapsPlus">@NewMapsPlus</a>
-			</li>
-			<li>Visit my
-				<a href='#'>mapping portfolio</a>.</li>
+
+
 		</ul>
 	</section>
 
@@ -105,8 +100,8 @@
 
 		// map options
 		var options = {
-			center: [38.0406, -84.5037], // lat/lon values
-			zoom: 12
+			center: [38.3904, -84.2941], // lat/lon values
+			zoom: 14
 		}
 
 		// create a Leaflet map in our division container with id of 'map'
@@ -120,7 +115,7 @@
 		}).addTo(map);
 
 		// write a custom message for the Leaflet tooltip
-		var message = 'Lexington is awesome!';
+		var message = 'Cynthiana!';
 
 		// add a marker to the center of the map and open the tooltip
 		L.marker(map.getCenter())
